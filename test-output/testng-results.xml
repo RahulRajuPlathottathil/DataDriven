@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="473" started-at="2019-10-07T16:59:06Z" finished-at="2019-10-07T16:59:06Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="473" started-at="2019-10-07T16:59:06Z" finished-at="2019-10-07T16:59:06Z">
+      <class name="rough.Rough">
+        <test-method status="PASS" signature="TestData1(java.util.Hashtable)[pri:0, instance:rough.Rough@4dfa3a9d]" name="TestData1" duration-ms="12" started-at="2019-10-07T22:29:06Z" data-provider="Data" finished-at="2019-10-07T22:29:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TC_ID=TC_ID1, Post Code=PCode1, First Name=FNA1, Run=Y1, Last Name=LN1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestData1 -->
+        <test-method status="PASS" signature="TestData1(java.util.Hashtable)[pri:0, instance:rough.Rough@4dfa3a9d]" name="TestData1" duration-ms="1" started-at="2019-10-07T22:29:06Z" data-provider="Data" finished-at="2019-10-07T22:29:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TC_ID=TC_ID2, Post Code=PCode2, First Name=FNA2, Run=Y2, Last Name=LN2}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestData1 -->
+        <test-method status="PASS" signature="TestData1(java.util.Hashtable)[pri:0, instance:rough.Rough@4dfa3a9d]" name="TestData1" duration-ms="1" started-at="2019-10-07T22:29:06Z" data-provider="Data" finished-at="2019-10-07T22:29:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TC_ID=TC_ID3, Post Code=PCode3, First Name=FNA3, Run=Y3, Last Name=LN3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestData1 -->
+      </class> <!-- rough.Rough -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

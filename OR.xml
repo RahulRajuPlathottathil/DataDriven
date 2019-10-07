@@ -1,0 +1,72 @@
+<Locators>
+  
+  <HomePage>
+  
+             <Title>
+                 <xpath>//strong[@class='mainHeading']</xpath>
+             </Title>
+             <Home>
+                 <xpath>//button[@class='btn home']</xpath>
+             </Home>
+             <CustomerLogin>
+                <xpath>//button[contains(text(),'Customer Login')]</xpath>
+             </CustomerLogin>
+             
+             <BankManagerLogin>
+                <xpath>//button[contains(text(),'Bank Manager Login')]</xpath>
+             </BankManagerLogin>
+  
+  </HomePage>
+  
+  <ManagerPage>
+  
+             <addCustomer>
+                <xpath>//button[contains(text(),'Add Customer')]</xpath>
+             </addCustomer>
+             
+             <openAccount>
+                <xpath>//button[contains(text(),'Open Account')]</xpath>
+             </openAccount>
+             
+             <customers>
+               <xpath>//button[contains(text(),'Customers')]</xpath>
+             </customers>
+             
+             <Home>
+                 <xpath>//button[@class='btn home']</xpath>
+             </Home>
+  </ManagerPage>
+  
+  <addCustomer>
+  
+          <firstName>
+            <xpath>//input[@placeholder='First Name']</xpath>
+          </firstName>
+          
+          <lastName>
+            <xpath>//input[@placeholder='Last Name']</xpath>
+          </lastName>
+          
+          <postCode>
+            <xpath>//input[@placeholder='Post Code']</xpath>
+          </postCode>
+          
+          <buttonAddcustomer>
+           <xpath>//button[text()='Add Customer']</xpath>
+          </buttonAddcustomer>
+  </addCustomer>
+   <Customers>
+   
+        <Search>
+           <xpath>//input[@placeholder='Search Customer']</xpath>
+        </Search>
+        <header>
+        <xpath>//table[@class='table table-bordered table-striped']//thead/tr/td</xpath>
+        </header>
+        <customerTable>
+        <xpath>//tr[contains(@ng-repeat,'cust in Customers')]</xpath>
+        </customerTable> 
+   
+   </Customers>
+
+</Locators>
